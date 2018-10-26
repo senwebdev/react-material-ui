@@ -1,0 +1,31 @@
+{
+  "name": "react-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "React app boilerplate with the Parcel bundler.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desiboli/react-parcel-boilerplate.git"
+  },
+  "author": "Mustafa Alshamaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desiboli/react-parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/desiboli/react-parcel-boilerplate#readme",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.10.3"
+  }
+}
